@@ -18,3 +18,5 @@ def test_aggregate_mean_feature_1():
     expected = {0: 3, 1: 4}
     result = aggregate_mean(data, "feature_1")
     assert expected == result
+
+# run cmd: pytest -v
