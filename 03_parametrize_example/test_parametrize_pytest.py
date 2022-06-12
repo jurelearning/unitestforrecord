@@ -20,3 +20,5 @@ def test_aggregate_mean_feature_1(column, expected):
     data = load_data()
     result = aggregate_mean(data, column)
     assert expected == result
+
+# run cmd: pytest -v
